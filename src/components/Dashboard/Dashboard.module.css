@@ -1,0 +1,154 @@
+.Dashboard {
+    display: flex;
+
+}
+
+section {
+    padding-left: 29px;
+    padding-right: 33px;
+    width: 100%;
+}
+
+header {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+
+header li:last-child {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+header li {
+    color: rgba(0, 0, 0, 0.45);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.headerTitleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTitleContainer button {
+    border: none;
+    padding: 5px 1rem;
+    border-radius: 2px;
+    background: #FDB927;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* table */
+table {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+thead {
+    width: 100%;
+}
+
+
+tbody td {
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.songNameContainer {
+    display: flex;
+    align-items: center;
+    gap: 17.67px;
+}
+
+td img {
+    width: 70px;
+    height: 70px;
+}
+
+/* footer */
+footer {}
+
+/* progress bar */
+
+.progressBarContainer {
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progressBar {
+    position: relative;
+}
+
+/* Progress */
+.backGrey {
+    width: 1184px;
+    height: 5px;
+    border-radius: 100px;
+    opacity: 0.31;
+}
+
+.steps {
+    top: 0;
+    position: absolute;
+    border-radius: 100px;
+    height: 100%;
+}
+
+
+/* ------------- */
+
+
+.footerBottom {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBottom img {
+    width: 71px;
+    height: 71px;
+}
+
+.footerBottom h5 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18.75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footerBottom .songName {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.footerBottom .playLogicButton {
+    display: flex;
+    gap: 16.67px;
+}
