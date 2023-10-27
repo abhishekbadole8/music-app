@@ -1,0 +1,70 @@
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+/* progress bar */
+
+.progressBarContainer {
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progressBar {
+    position: relative;
+}
+
+/* Progress */
+.backGrey {
+    width: 1184px;
+    height: 5px;
+    border-radius: 100px;
+    opacity: 0.31;
+}
+
+.steps {
+    top: 0;
+    position: absolute;
+    border-radius: 100px;
+    height: 100%;
+}
+
+
+/* ------------- */
+
+
+.footerBottom {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBottom img {
+    width: 71px;
+    height: 71px;
+}
+
+.footerBottom h5 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18.75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footerBottom .songName {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.footerBottom .playLogicButton {
+    display: flex;
+    gap: 16.67px;
+}

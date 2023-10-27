@@ -1,9 +1,9 @@
 import { createContext, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Login from './components/Login/Login'
-import Otp from './components/Otp/Otp'
-import Dashboard from './components/Dashboard/Dashboard'
+import Login from './pages/Login/Login'
+import Otp from './pages/Otp/Otp'
+import Dashboard from './pages/Dashboard/Dashboard'
 
 export const UserContext = createContext()
 

@@ -3,7 +3,6 @@ import "../../App.css"
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 
-
 function Login({ setIsOtp }) {
 
     const [phoneNumber, setPhoneNumber] = useState('');
@@ -22,7 +21,6 @@ function Login({ setIsOtp }) {
 
     return (
         <div className="loginPageContainer">
-
 
             <div className="login">
                 <h3>Sign In</h3>

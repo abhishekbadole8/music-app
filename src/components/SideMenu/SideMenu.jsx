@@ -14,7 +14,7 @@ function SideMenu() {
                 </li>
 
                 <li className={Style.logout}>
-                    <BiLogInCircle size={25}/>
+                    <BiLogInCircle size={25} />
                     <p>Logout</p>
                 </li>
             </ul>
