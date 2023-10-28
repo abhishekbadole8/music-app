@@ -1,7 +1,7 @@
 /* footer */
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: .75rem;
 }
 
 /* progress bar */
@@ -21,7 +21,7 @@ footer {
 /* Progress */
 .backGrey {
     width: 1184px;
-    height: 5px;
+    height: 7.5px;
     border-radius: 100px;
     opacity: 0.31;
 }
@@ -64,7 +64,17 @@ footer {
     gap: .5rem;
 }
 
-.footerBottom .playLogicButton {
+/* buttons start here */
+.footerBottom .playLogicButtonContainer {
     display: flex;
     gap: 16.67px;
+}
+
+.playLogicButton {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.playLogicButton:hover {
+    color: red;
 }

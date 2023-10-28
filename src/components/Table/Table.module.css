@@ -1,0 +1,49 @@
+table {
+    margin-top: 40px;
+    width: 100%;
+}
+
+thead {
+    width: 100%;
+}
+
+tbody td {
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.songNameContainer {
+    display: flex;
+    align-items: center;
+    gap: 17.67px;
+}
+
+td img {
+    width: 70px;
+    height: 70px;
+}
+
+/* tables buttons */
+
+.playButton,
+.pauseButton {
+    cursor: pointer;
+    color: #FDB927;
+}
+
+.playButton:hover,
+.pauseButton:hover {
+    color: red;
+}
+
+.deleteButton {
+    cursor: pointer;
+    opacity: .45;
+}
+
+.deleteButton:hover {
+    opacity: 1;
+}

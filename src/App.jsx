@@ -8,11 +8,14 @@ import Dashboard from './pages/Dashboard/Dashboard'
 export const UserContext = createContext()
 
 function App() {
+  const songURL = ``
   const [isOtp, setIsOtp] = useState(false)
+  const [isSongPlaying, setIsSongPlaying] = useState(false)
+  const [songPlaylist, setSongPlaylist] = useState(songURL)
 
   return (
     <div className="App">
-      <UserContext.Provider value={{ isOtp, setIsOtp }}>
+      <UserContext.Provider value={{ isOtp, setIsOtp, isSongPlaying, setIsSongPlaying, songPlaylist }}>
         <Router>
           <Routes>
             <Route exact path='/' element={<Login />} />
