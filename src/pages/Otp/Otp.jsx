@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "../../App.css"
+import { useNavigate } from "react-router-dom";
 
 function Otp() {
+    const navigate = useNavigate()
     const [otp, setOtp] = useState(new Array(4).fill(""));
 
     const handleOtpChange = (e, index) => {
@@ -38,7 +40,7 @@ function Otp() {
 
                 </div>
 
-                <button>Verify</button>
+                <button onClick={() => navigate('/dashboard')}>Verify</button>
 
                 <div className='otp-bottom-click'>
                     <a >Resend OTP</a>

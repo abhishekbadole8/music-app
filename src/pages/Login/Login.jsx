@@ -2,9 +2,10 @@ import { useState } from "react";
 import "../../App.css"
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
+import { Navigate, useNavigate } from "react-router-dom";
 
 function Login({ setIsOtp }) {
-
+    const navigate = useNavigate()
     const [phoneNumber, setPhoneNumber] = useState('');
     const [valid, setValid] = useState(true);
 
@@ -48,7 +49,7 @@ function Login({ setIsOtp }) {
 
                 </div>
 
-                <button onClick={() => setIsOtp(prev => !prev)}>Sign In</button>
+                <button onClick={() => navigate('/otp')}>Sign In</button>
             </div>
         </div>
     )
